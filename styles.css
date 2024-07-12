@@ -1,0 +1,197 @@
+.img{
+    width: 30px;
+
+}
+
+ body{
+    height: 200vh;
+    display: flex;    
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 24px;
+    flex-shrink: 0;
+}   
+
+.cont2{
+    height: 200px;
+    width: 450px;
+    
+}
+
+.cont3{
+    display: flex;
+
+}
+
+.cont4{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: px;
+    margin: 0px;
+    justify-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+   
+}
+
+.header{
+    background: #1F2937;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.text{
+    font-size: 18px;
+    color: #dadfe9;
+    text-wrap: wrap;
+
+}
+
+
+.gallery{
+    display: flex;
+    width: 300px;  
+    height: 160px;
+}
+
+button{
+    
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  color: #F9FAF8;
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  width: 80px;
+
+}
+
+.secdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.galimage{
+    display: flex;
+    text-wrap: wrap;
+    width: 800px;
+    gap: 40px;
+}
+
+.gimg{
+    width:150px;
+    height: 150px;
+    border: blue 2px solid;
+    border-radius: 10px;
+}
+
+.centertext{
+   padding: 25px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+    
+}
+
+.galtext{
+    display: flex;
+    text-wrap: wrap;
+    width: 150px;
+
+}
+
+.quoteSec{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+
+.thomas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.bottom-signup{
+    background-color: rgb(109, 163, 233);
+    height: 100px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+      
+}
+
+.right button{
+    border: 2px solid #f4f6f9;
+    
+    
+}
+
+button:hover {
+    background-color: rgb(16, 104, 168);
+}
+
+ul, p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
